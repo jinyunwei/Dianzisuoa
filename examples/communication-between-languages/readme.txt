@@ -1,0 +1,16 @@
+readme.txt
+
+Download the following files into a directory:
+   controller.c
+   keypad.java
+   lock.py
+
+To run first compile the c program:
+
+$ gcc controller.c -o controller
+$ javac keypad.java
+
+Then run:
+$ ./controller
+
+This will show that the C program can call the python and java programs.
