@@ -7,10 +7,10 @@ Download the following files into a directory:
 
 To run first compile the c program:
 
-$ gcc controller.c -o controller
+$ gcc controller.c -o controller.out
 $ javac keypad.java
 
 Then run:
-$ ./controller
+$ ./controller.out
 
 This will show that the C program can call the python and java programs.
