@@ -11,7 +11,7 @@ public class Main {
         int input = scan.nextInt();
         scan.close();
 
-        int [] password = new int [] {9876,6543,3210}; // Password database
+        int [] password = new int [] {9876, 6543, 3210, 1234}; // Password database
 
         boolean access = checkpassword(password, input); // Password checking processing
         if (access == true) {
